@@ -11,7 +11,7 @@ To answer these questions, we use public data from London (UK), which can be fou
 - [London Fire Brigade Incidents](https://www.kaggle.com/datasets/jonbown/london-fire-brigade-incidents) ("lfb_incident.csv"), containing fire incident data from 2009 to 2022.
 - [London Weather Data](https://www.kaggle.com/datasets/emmanuelfwerr/london-weather-data) ("london_weather.csv"), containing weather information from 1979 to 2021.
 
-We join both CSV files by date, ignoring fire incidents from 2022 and weather records from 1979 to 2008 since there are no matching records in both datasets. The final dataset contains 1,286,617 rows. We use this dataset to train three tree-based models: 
+We join both CSV files by date, ignoring fire incidents from 2022 and weather records from 1979 to 2008 since there are no matching records in both datasets. The final dataset contains 1,286,617 rows. We use this dataset to train three tree-based models that work well with tabular data: 
 - decision tree 
 - random forest
 - boosted tree
