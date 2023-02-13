@@ -32,10 +32,7 @@ Our output feature is the fire pumps' notional cost in pound sterling (£). The 
 
 Finally, we evaluate to determine the best model in terms of **prediction accuracy**. In practice, the model we describe in this project could help estimate the operation cost of fire departments as soon as a call for a fire incident is made.
 
-# Feature description
-We join files "lfb_incident.csv" (from [London Fire Brigade Incidents](https://www.kaggle.com/datasets/jonbown/london-fire-brigade-incidents?select=lfb_incident.csv)) and "london_weather.csv" (from [London Weather Data](https://www.kaggle.com/datasets/emmanuelfwerr/london-weather-data?select=london_weather.csv)) by date. Here is a description of the features and examples:
-
-Most records in the dataset have costs lower than 1000 pounds. So we divide the categories in ranges of 100. For example, all records with cost >= 0 and cost < 100 belong to category 1. All records with cost >= 100 and cost < 200 belong to category 2, and so on. This goes up until 1000. Records with costs larger than 1000 belong to category 11.
+# Detailed feature description
 
 | **Feature**       | **Type**    | **Description**                                                    | **Example**              |
 |-------------------|-------------|--------------------------------------------------------------------|--------------------------|
