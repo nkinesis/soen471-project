@@ -1,3 +1,5 @@
+# Firefighting cost prediction with tree-based models
+
 Firefighting is one of the most cost-demanding domains of the public safety sector in terms of after-damage and preventive measures. Nonetheless, it is a fundamental public service and keeping track of its cost can benefit both the firefighters working at the heart of the action and the government bodies which manage them.
 
 Therefore, in this project, we answer the following research questions:
