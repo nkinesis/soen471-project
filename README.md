@@ -5,7 +5,7 @@ Firefighting is one of the most cost-demanding domains of the public safety sect
 Therefore, in this project, we answer the following research questions:
 1. Is it possible to predict the notional cost of firefighting operations using tree-based models?
 2. Which tree-based model provides the best prediction accuracy?
-3. What features correlate more and less strongly to the notional cost?
+3. What features correlate more or less strongly with the notional cost?
 
 To answer these questions, we use public data from London (UK), which can be found on Kaggle: 
 - [London Fire Brigade Incidents](https://www.kaggle.com/datasets/jonbown/london-fire-brigade-incidents) ("lfb_incident.csv"), containing fire incident data from 2009 to 2022.
@@ -28,7 +28,7 @@ We use five features as the inputs of our models:
 4. number of hours the fire pumps worked
 5. mean daily temperature (Cº) 
 
-Our output feature is the fire pumps' notional cost in pound sterling (£). The cost value was originally a continuous numerical variable, but we converted it to a categorical variable, dividing and categorizing the numerical value in intervals of 100£. For example, all records of cost between 0.00 and 100.00£ fall under category 1, all records of cost between 100.01 and 200.00£ fall under category 2, and so on. All records with costs larger than 1000.01£ fall under category 11. 
+Our output feature is the fire pumps' notional cost in pound sterling (£). The cost value was originally a continuous numerical variable, but we converted it to a categorical variable, dividing and categorizing the numerical value in intervals of £100. For example, all records of cost between £0.00 and £100.00 fall under category 1, all records of cost between £100.01 and £200.00 fall under category 2, and so on. All records with costs larger than £1000.01 fall under category 11. 
 
 Finally, we evaluate to determine the best model in terms of **prediction accuracy**. In practice, the model we describe in this project could help estimate the operation cost of fire departments as soon as a call for a fire incident is made.
 
