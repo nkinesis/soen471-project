@@ -45,7 +45,7 @@ Finally, we evaluate to determine the best model in terms of **prediction accura
 
 # Model evaluation
 - We divide the rows in the dataset between training (66.6%) and testing (33.3%).
-- We use hyperparameter tunning and cross-validation.
+- We use hyperparameter tuning and cross-validation.
 
 # Installation
 - (TODO) For the final version of this README, we will describe our local setup so the experiments can be reproduced. 
