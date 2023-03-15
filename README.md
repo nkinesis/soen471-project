@@ -47,7 +47,7 @@ Finally, we evaluate to determine the best model in terms of **prediction accura
 We divide the rows in the dataset between training (66.6%) and testing (33.3%).We use hyperparameter tuning and cross-validation. Average f1-scores are:
 - Random forest: 0.78
 - Decision tree: 0.77
-- Boosted tree:
+- Boosted tree: 0.77
 
 # Installation
 - (TODO) For the final version of this README, we will describe our local setup so the experiments can be reproduced. 
