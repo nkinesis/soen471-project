@@ -2,6 +2,5 @@ london/data
 toronto/data
 .ipynb_checkpoints
 .idea
-data/lfb_incident.csv
-data/london_clean.csv
-data/london_weather.csv
+preprocessing/data/lfb_incident.csv
+preprocessing/data/london_clean.csv
