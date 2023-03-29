@@ -28,7 +28,7 @@ We use five features as the inputs of our models:
 4. number of hours the fire pumps worked
 5. mean daily temperature (Cº) 
 
-Our output feature is the fire pumps' notional cost in pound sterling (£). The cost value was originally a continuous numerical variable, but we converted it to a categorical variable, dividing and categorizing the numerical value in intervals of £100. For example, all records of cost between £0.00 and £100.00 fall under category 1, all records of cost between £100.01 and £200.00 fall under category 2, and so on. All records with costs larger than £1000.01 fall under category 11. 
+Our output feature is the fire pumps' notional cost in pound sterling (£). The cost value was originally a continuous numerical variable, but we converted it to a categorical variable, dividing and categorizing the numerical value in intervals of £300. This process is explained in more detail in preprocessing/2_check_correlation.ipynb.
 
 Finally, we evaluate to determine the best model in terms of **prediction accuracy**. In practice, the model we describe in this project could help estimate the operation cost of fire departments as soon as a call for a fire incident is made.
 
@@ -49,6 +49,19 @@ We divide the rows in the dataset between training (66.6%) and testing (33.3%).W
 - Decision tree: 0.77
 - Boosted tree: 0.77
 
-# Installation
-- (TODO) For the final version of this README, we will describe our local setup so the experiments can be reproduced. 
-- (TODO) Add the requirements.txt and other instructions.
+# How to install?
+In order to execute the notebooks in this repository, you will need Python 3.8. The file requirements.txt in the root of the project contains the dependency list.
+
+    pip install -r requirements.txt 
+
+# Where is the code?
+For cleaning, reshaping and checking the data:
+- Data preprocessing: preprocessing/1_data_cleaning_with_weather.ipynb
+- Feature correlation: preprocessing/2_check_correlation.ipynb
+
+For training and evaluating the tree-based models:
+- Decision trees: decision_tree.ipynb
+- Random forest: random_forest.ipynb
+- Boosted trees: boosted_tree.ipynb
+
+
