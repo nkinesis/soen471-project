@@ -4,3 +4,4 @@ toronto/data
 .idea
 preprocessing/data/lfb_incident.csv
 preprocessing/data/london_clean.csv
+preprocessing/data/*.csv
