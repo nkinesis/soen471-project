@@ -53,6 +53,9 @@ We divide the rows in the dataset between training (66.6%) and testing (33.3%).W
 In order to execute the notebooks in this repository, you will need Python 3.8. The file requirements.txt in the root of the project contains the dependency list.
 
     pip install -r requirements.txt 
+   
+#visualisation
+To compare the different models we use plotly and matplotlib and we make a bar graph
 
 # Where is the code?
 For cleaning, reshaping and checking the data:
