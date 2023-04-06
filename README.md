@@ -54,7 +54,7 @@ In order to execute the notebooks in this repository, you will need Python 3.8. 
 
     pip install -r requirements.txt 
    
-#visualisation
+# Visualisation
 To compare the different models we use plotly and matplotlib and we make a bar graph
 
 # Where is the code?
