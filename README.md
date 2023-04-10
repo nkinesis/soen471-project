@@ -44,10 +44,7 @@ Finally, we evaluate to determine the best model in terms of **prediction accura
 | Notional Cost (£) | Categorical     | Time spent multiplied by notional annual cost of a pump, in pounds. Originally in pounds, we converted this feature from numerical to categorical.| 1                      |
 
 # Model evaluation
-We divide the rows in the dataset between training (66.6%) and testing (33.3%).We use hyperparameter tuning and cross-validation. Average f1-scores are:
-- Random forest: 0.78
-- Decision tree: 0.77
-- Boosted tree: 0.77
+We divide the rows in the dataset between training (66.6%) and testing (33.3%).We use hyperparameter tuning and cross-validation. More details at chart.ipynb.
 
 # How to install?
 In order to execute the notebooks in this repository, you will need Python 3.8. The file requirements.txt in the root of the project contains the dependency list.
